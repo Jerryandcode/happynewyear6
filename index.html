@@ -61,8 +61,8 @@
     </style>
 </head>
 <body>
-    <!-- 音频播放器组件，去掉autoplay和loop属性 -->
-    <audio id="music" class="musicControl" style="display: none" preload="auto" controls="controls" src="./lib/music.mp3"></audio>
+    <!-- 音频播放器组件，添加loop属性以实现循环播放 -->
+    <audio id="music" class="musicControl" style="display: none" preload="auto" controls="controls" src="./lib/music.mp3" loop></audio>
     
     <!-- 音乐控制图标 -->
     <img id="music-image" style="position: fixed; z-index: 999; height: 30px; right: 20px; top: 20px;" src="./lib/cc.jpg" alt="Music Icon" />
